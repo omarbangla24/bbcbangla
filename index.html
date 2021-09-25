@@ -296,7 +296,7 @@
     }
     /* Covid */
     .title-line hr{
-      width: 70%;
+      width: 73%;
       margin: 2% 10px;
     }
     .title-line {
@@ -388,13 +388,39 @@ margin-top: 10px;
     /* Footer */
     .footer-wrap{
       background-color: #222222;
-      min-height: 260px;
     }
     .footer{
       margin: 0 auto;
       width: 75%;
     }
-
+    .footer a{
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 24px;
+      color: #FFFFFF;
+      padding: 0.75rem 0 0.75rem;
+      text-decoration: none;
+    }
+    .footer a:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .footer > a{
+      display: block;
+      padding: 30px 0 10px 0;
+    }
+    .footer-link{
+      width: 65%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .copyright{
+      padding: 5px 0 20px 0!important;
+      font-weight: normal;
+    }
+    .footer hr{
+      border-top: 1px solid #3F3F42;
+    }
   </style>
 </head>
 
@@ -944,20 +970,18 @@ margin-top: 10px;
   <!-- Footer Start -->
   <div class="row footer-wrap">
     <div class="col-wrap footer">
-      <a href="#">বিবিসির ওপর কেন আপনি আস্থা রাখতে পারেন</a>
+      <a href="#" class="footer-1">বিবিসির ওপর কেন আপনি আস্থা রাখতে পারেন</a>
       <hr>
       <div class="footer-link">
         <a href="#">ব্যবহারের শর্তাবলী</a>
-        <a href="#">বিবিসি সম্পর্কে</a>
         <a href="#">প্রিভেসি নীতি</a>
-        <a href="#">কুকিজ</a>
         <a href="#">বিবিসির সঙ্গে যোগাযোগ করুন</a>
+        <a href="#">বিবিসি সম্পর্কে</a>
+        <a href="#">কুকিজ</a>
         <a href="#">AdChoices / Do Not Sell My Info</a>
       </div>
       <hr>
-      <div class="copyright">
-        <a href="#">© 2021 বিবিসি। বাইরের কোন সাইটের তথ্যের জন্য বিবিসি দায়বদ্ধ নয়। বাইরের লিংক সম্পর্কে বিবিসির দৃষ্টিভঙ্গি সম্বন্ধে পড়ুন।</a>
-      </div>
+        <a class="copyright" href="#">© 2021 বিবিসি। বাইরের কোন সাইটের তথ্যের জন্য বিবিসি দায়বদ্ধ নয়। বাইরের লিংক সম্পর্কে বিবিসির দৃষ্টিভঙ্গি সম্বন্ধে পড়ুন।</a>
     </div>
   </div>
   <!-- Footer End -->
